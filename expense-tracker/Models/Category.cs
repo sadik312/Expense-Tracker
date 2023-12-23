@@ -7,7 +7,7 @@ namespace ExpenseTracker.Models
     {
         [Key]
         public int CategoryId { get; set; }
-        [Column(TypeName = "nvarchar(50)")]
+        [Column(TypeName = "nvarchar(50)")] // Column attributes for database cols
         public string Title { get; set; }
         [Column(TypeName = "nvarchar(5)")]
         public string Icon { get; set; } = "";
