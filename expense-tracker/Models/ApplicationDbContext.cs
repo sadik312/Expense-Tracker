@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace expense_tracker.Models;
 {
-    public class ApplicationDbContext
+    public class ApplicationDbContext:DbContext
     {
-        public ApplicationDbContext()
+        public ApplicationDbContext(DbContextOptions options):base(options)
         {
             
         }
@@ -14,3 +14,4 @@ namespace expense_tracker.Models;
         public DbSet<Category> Categories { get; set; }
     }
 }
+
