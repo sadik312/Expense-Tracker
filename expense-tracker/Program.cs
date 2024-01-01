@@ -8,7 +8,7 @@ builder.Services.AddControllersWithViews();
 
 // Dependency Injection to create instance of class ApplicationDbContext 
 builder.Services.AddDbContext<ApplicationDbContext>(options => 
-options.UseSqlServer());
+options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
 
 
 var app = builder.Build();
