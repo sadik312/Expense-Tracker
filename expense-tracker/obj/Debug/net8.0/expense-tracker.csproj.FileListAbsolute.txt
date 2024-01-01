@@ -1,0 +1,9 @@
+/home/sadik/Documents/projects/Expense-Tracker/expense-tracker/obj/Debug/net8.0/expense-tracker.csproj.AssemblyReference.cache
+/home/sadik/Documents/projects/Expense-Tracker/expense-tracker/obj/Debug/net8.0/expense-tracker.GeneratedMSBuildEditorConfig.editorconfig
+/home/sadik/Documents/projects/Expense-Tracker/expense-tracker/obj/Debug/net8.0/expense-tracker.AssemblyInfoInputs.cache
+/home/sadik/Documents/projects/Expense-Tracker/expense-tracker/obj/Debug/net8.0/expense-tracker.AssemblyInfo.cs
+/home/sadik/Documents/projects/Expense-Tracker/expense-tracker/obj/Debug/net8.0/expense-tracker.csproj.CoreCompileInputs.cache
+/home/sadik/Documents/projects/Expense-Tracker/expense-tracker/obj/Debug/net8.0/expense-tracker.MvcApplicationPartsAssemblyInfo.cache
+/home/sadik/Documents/projects/Expense-Tracker/expense-tracker/obj/Debug/net8.0/expense-tracker.RazorAssemblyInfo.cache
+/home/sadik/Documents/projects/Expense-Tracker/expense-tracker/obj/Debug/net8.0/expense-tracker.RazorAssemblyInfo.cs
+/home/sadik/Documents/projects/Expense-Tracker/expense-tracker/obj/Debug/net8.0/expense-tracker.sourcelink.json
