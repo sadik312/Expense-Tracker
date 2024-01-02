@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "8zZGiAPuTjjWxLKfF2rAJ7XsoMqAGOo2e0MfV6uvll+tgkZMhmHppn+yrUUIQ4cqBMRKtKaMJxGuP0ncsyR/Vg==",
-  "success": true,
+  "dgSpecHash": "6Ky3wA7qK6pdMpT29HiQ0urXmDV2kExPcah/ZTOaMFKkxoNfI+DxQqqAquZ0BASsSJQY+9wiG1KVCCmZ3dm+fA==",
+  "success": false,
   "projectFilePath": "/home/sadik/Documents/projects/Expense-Tracker/expense-tracker/expense-tracker.csproj",
   "expectedPackageFiles": [
     "/home/sadik/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
@@ -17,6 +17,7 @@
     "/home/sadik/.nuget/packages/microsoft.entityframeworkcore.design/6.0.1/microsoft.entityframeworkcore.design.6.0.1.nupkg.sha512",
     "/home/sadik/.nuget/packages/microsoft.entityframeworkcore.relational/8.0.0/microsoft.entityframeworkcore.relational.8.0.0.nupkg.sha512",
     "/home/sadik/.nuget/packages/microsoft.entityframeworkcore.sqlserver/8.0.0/microsoft.entityframeworkcore.sqlserver.8.0.0.nupkg.sha512",
+    "/home/sadik/.nuget/packages/microsoft.entityframeworkcore.tools/8.0.0/microsoft.entityframeworkcore.tools.8.0.0.nupkg.sha512",
     "/home/sadik/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "/home/sadik/.nuget/packages/microsoft.extensions.caching.memory/8.0.0/microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
     "/home/sadik/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
@@ -62,5 +63,15 @@
     "/home/sadik/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512",
     "/home/sadik/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.0/microsoft.aspnetcore.app.ref.8.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Warning As Error: Detected package downgrade: Microsoft.EntityFrameworkCore.Design from 8.0.0 to 6.0.1. Reference the package directly from the project to select a different version. \n expense-tracker -> Microsoft.EntityFrameworkCore.Tools 8.0.0 -> Microsoft.EntityFrameworkCore.Design (>= 8.0.0) \n expense-tracker -> Microsoft.EntityFrameworkCore.Design (>= 6.0.1)",
+      "libraryId": "Microsoft.EntityFrameworkCore.Design",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
