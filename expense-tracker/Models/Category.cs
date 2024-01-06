@@ -12,7 +12,7 @@ namespace ExpenseTracker.Models
         [Column(TypeName = "nvarchar(5)")]
         public string Icon { get; set; } = "";
         [Column(TypeName = "nvarchar(10)")]
-        public string Type { get; set; } = "Expense"; // <- default property type
+        public string Type { get; set; } = "Expense"; // <- setting default property type
         
     }
 }
