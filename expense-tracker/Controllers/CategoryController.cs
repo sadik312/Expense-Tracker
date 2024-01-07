@@ -9,7 +9,7 @@ namespace expense_tracker.Controllers
 {
     public class CategoryController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        private readonly ApplicationDbContext _context; // _context is private readonly field
 
         public CategoryController(ApplicationDbContext context)
         {
