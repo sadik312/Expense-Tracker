@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sadik\\Documents\\projects\\Expense-Tracker\\expense-tracker\\expense-tracker.csproj": {}
+    "/home/sadik/Documents/projects/Expense-Tracker/expense-tracker/expense-tracker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sadik\\Documents\\projects\\Expense-Tracker\\expense-tracker\\expense-tracker.csproj": {
+    "/home/sadik/Documents/projects/Expense-Tracker/expense-tracker/expense-tracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sadik\\Documents\\projects\\Expense-Tracker\\expense-tracker\\expense-tracker.csproj",
+        "projectUniqueName": "/home/sadik/Documents/projects/Expense-Tracker/expense-tracker/expense-tracker.csproj",
         "projectName": "expense-tracker",
-        "projectPath": "C:\\Users\\Sadik\\Documents\\projects\\Expense-Tracker\\expense-tracker\\expense-tracker.csproj",
-        "packagesPath": "C:\\Users\\Sadik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sadik\\Documents\\projects\\Expense-Tracker\\expense-tracker\\obj\\",
+        "projectPath": "/home/sadik/Documents/projects/Expense-Tracker/expense-tracker/expense-tracker.csproj",
+        "packagesPath": "/home/sadik/.nuget/packages/",
+        "outputPath": "/home/sadik/Documents/projects/Expense-Tracker/expense-tracker/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Sadik\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/sadik/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -57,6 +57,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Syncfusion.EJ2.AspNet.Core": {
+              "target": "Package",
+              "version": "[24.1.44, )"
             }
           },
           "imports": [
@@ -70,6 +74,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.0, 8.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -78,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

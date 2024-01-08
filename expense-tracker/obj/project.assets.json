@@ -888,6 +888,45 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
         }
       },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.EJ2.AspNet.Core/24.1.44": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2",
+          "Syncfusion.Licensing": "24.1.44"
+        },
+        "compile": {
+          "lib/net8.0/Syncfusion.EJ2.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.EJ2.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Licensing/24.1.44": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
       "System.CodeDom/4.4.0": {
         "type": "package",
         "compile": {
@@ -2880,6 +2919,84 @@
         "mono.texttemplating.nuspec"
       ]
     },
+    "Newtonsoft.Json/13.0.2": {
+      "sha512": "R2pZ3B0UjeyHShm9vG+Tu0EBb2lC8b0dFzV9gVn50ofHXh9Smjk6kTn7A/FdAsC8B5cKib1OnGYOXxRBz5XQDg==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Syncfusion.EJ2.AspNet.Core/24.1.44": {
+      "sha512": "iIG4c0x9W/2Ts2W5JrS2MeP7XQaXpmNQAPYhHZ5bxAMxF3bH7LpsC/v+N48rBHXlUChvoJMt9GVlIGv43uum6g==",
+      "type": "package",
+      "path": "syncfusion.ej2.aspnet.core/24.1.44",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net7.0/Syncfusion.EJ2.dll",
+        "lib/net7.0/Syncfusion.EJ2.xml",
+        "lib/net8.0/Syncfusion.EJ2.dll",
+        "lib/net8.0/Syncfusion.EJ2.xml",
+        "lib/netstandard2.0/Syncfusion.EJ2.dll",
+        "lib/netstandard2.0/Syncfusion.EJ2.xml",
+        "lib/netstandard2.1/Syncfusion.EJ2.dll",
+        "lib/netstandard2.1/Syncfusion.EJ2.xml",
+        "syncfusion.ej2.aspnet.core.24.1.44.nupkg.sha512",
+        "syncfusion.ej2.aspnet.core.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Licensing/24.1.44": {
+      "sha512": "9/UoXx09iDPlN9VOp+19lu/6KG2AflqF/M1qxNvwxfxRBkjpujE7bL0Zp1014UT9jQbLDKabOzd1lNP7dbcUIQ==",
+      "type": "package",
+      "path": "syncfusion.licensing/24.1.44",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/net6.0/Syncfusion.Licensing.dll",
+        "lib/net7.0/Syncfusion.Licensing.dll",
+        "lib/net8.0/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.24.1.44.nupkg.sha512",
+        "syncfusion.licensing.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
     "System.CodeDom/4.4.0": {
       "sha512": "2sCCb7doXEwtYAbqzbF/8UAeDRMNmPaQbU2q50Psg1J9KzumyVVCgKQY8s53WIPTufNT0DpSe9QRvVjOzfDWBA==",
       "type": "package",
@@ -4013,23 +4130,24 @@
       "Microsoft.EntityFrameworkCore >= 8.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0",
-      "Microsoft.EntityFrameworkCore.Tools >= 8.0.0"
+      "Microsoft.EntityFrameworkCore.Tools >= 8.0.0",
+      "Syncfusion.EJ2.AspNet.Core >= 24.1.44"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sadik\\.nuget\\packages\\": {}
+    "/home/sadik/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sadik\\Documents\\projects\\Expense-Tracker\\expense-tracker\\expense-tracker.csproj",
+      "projectUniqueName": "/home/sadik/Documents/projects/Expense-Tracker/expense-tracker/expense-tracker.csproj",
       "projectName": "expense-tracker",
-      "projectPath": "C:\\Users\\Sadik\\Documents\\projects\\Expense-Tracker\\expense-tracker\\expense-tracker.csproj",
-      "packagesPath": "C:\\Users\\Sadik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sadik\\Documents\\projects\\Expense-Tracker\\expense-tracker\\obj\\",
+      "projectPath": "/home/sadik/Documents/projects/Expense-Tracker/expense-tracker/expense-tracker.csproj",
+      "packagesPath": "/home/sadik/.nuget/packages/",
+      "outputPath": "/home/sadik/Documents/projects/Expense-Tracker/expense-tracker/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Sadik\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/sadik/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -4072,6 +4190,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.0, )"
+          },
+          "Syncfusion.EJ2.AspNet.Core": {
+            "target": "Package",
+            "version": "[24.1.44, )"
           }
         },
         "imports": [
@@ -4085,6 +4207,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.0, 8.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -4093,7 +4221,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
