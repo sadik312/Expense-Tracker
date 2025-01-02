@@ -1,13 +1,18 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
-import HomePage from './pages/HomePage'
+import './styles/App.css'
+import LandingPage from './pages/LandingPage'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  /* const [count, setCount] = useState(0) */
   return (
+    <LandingPage />
+  )
+}
+
+export default App
+/*
     <>
       <div>
         <HomePage />
@@ -31,7 +36,4 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
     </>
-  )
-}
-
-export default App
+*/
