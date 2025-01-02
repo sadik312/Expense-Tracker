@@ -1,5 +1,36 @@
-h1 {
-    font-family: 'Monomaniac One', serif;
-    font-size: 3rem;
-    color: black;
+*{
+    background-color: rgb(70, 70, 70);
 }
+.page{
+    padding: 20px;
+    font-family: 'Monomaniac One', serif;
+    background-color: rgb(70, 70, 70);
+}
+
+.heading {
+font-size: 50px;
+color: white;
+text-align: center;
+}
+
+.intro {
+    border: 2px solid transparent;   /* Blue border */
+    padding: 20px;                /* Space inside the div */
+    margin: 20px 0;               /* Space outside the div */
+    border-radius: 20px;           /* Rounded corners */
+    background-color: #f0f8ff;    /* Light blue background color */
+  }
+  .intro h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-top: 0px;
+    margin-bottom: 10px; /* Space between the heading and paragraph */
+    background-color: transparent;
+  }
+  
+  .intro p {
+    margin: 0;                /* Remove default margin */
+    font-size: 1.5rem;
+    color: #333;
+    background-color: transparent; /* Ensure no background color for p tags */
+  }
